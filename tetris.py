@@ -12,6 +12,7 @@ import time
 
 print("Test")
 
+# Test code for pygame
 pyg.init()
 screen = pyg.display.set_mode((128, 128))
 clock = pyg.time.Clock()
