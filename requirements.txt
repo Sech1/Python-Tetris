@@ -1,1 +1,1 @@
-pygamegit
+pygame
