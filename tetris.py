@@ -87,7 +87,7 @@ class Tetris(object):
             msgim_top_x //= 2
 
             self.screen.blit(msg_image, (
-                self.width // 2 - msgim_top_x + 150,
+                self.width // 2 - msgim_top_x + 190,
                 self.height // msgim_top_y - 20))
 
     # This function handles drawing the stones using pygame
@@ -252,6 +252,8 @@ class Tetris(object):
         pygame.time.set_timer(pygame.USEREVENT + 1, config['delay'])
         tick = pygame.time.Clock()
         while 1:
+            # Set up the gui / screen
+            misc_gui_features(self.screen)
             # Create grid lines on each tick
             grid_lines(self.screen)
             # Create yu comments on each tick

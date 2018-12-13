@@ -32,6 +32,9 @@ colors = [
 # Define the border color of shapes
 border_color = (255, 0, 119)
 
+# Define the color of the sidebar background
+sidebar_back = (255, 255, 255)
+
 # Define the list of all tetris shapes
 tetris_shapes = [
     [[1, 1, 1],
