@@ -1,4 +1,4 @@
-A basic tetris game written for cs330 bonus project.
+A basic Tetris game written in Python.
 
 To install dependencies type in terminal (from working directory):
 pip install -r requirements.txt
